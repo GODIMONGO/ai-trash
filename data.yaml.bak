@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['aerosol', 'plastic_water_bottles_disposable', 'plastic_water_bottles_reusable', 'tin', 'toothbrush', 'toothpastetube', 'vial']
+
+roboflow:
+  workspace: godimongo
+  project: trash-qunu0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/godimongo/trash-qunu0/dataset/2

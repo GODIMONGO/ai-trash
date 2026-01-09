@@ -1,0 +1,3 @@
+
+nc: 11
+names: ['aerosol', 'plastic_water_bottles_disposable', 'plastic_water_bottles_reusable', 'tin', 'toothbrush', 'toothpastetube', 'vial', 'battery', 'biological', 'chopsticks', 'rag']

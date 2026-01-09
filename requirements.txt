@@ -1,0 +1,21 @@
+# Dependencies for training/finetuning/testing with Ultralytics YOLO
+
+# Core
+ultralytics>=8.2.0,<9
+pyyaml>=6.0
+
+# PyTorch (install CPU or CUDA build as needed)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Lighter OpenCV build to save disk space (no GUI bindings)
+opencv-python-headless>=4.8.0
+
+# Common runtime deps
+numpy>=1.23.0
+pillow>=9.5.0
+psutil>=5.9.0
+
+# Optional (enable if you want plots saved by Ultralytics)
+# matplotlib>=3.7.0
+PyYAML>=6.0.3

@@ -1,0 +1,21 @@
+# Minimal CPU-only requirements (smaller footprint) for Linux/containers
+# Uses CPU wheels from PyTorch index. Suitable for low-disk environments and Pterodactyl.
+
+ultralytics>=8.2.0,<9
+pyyaml>=6.0
+
+--index-url https://download.pytorch.org/whl/cpu
+# Pin to CPU wheels (Python 3.13 compatible)
+torch==2.9.0+cpu
+torchvision==0.24.0+cpu
+
+# Smaller headless OpenCV
+opencv-python-headless>=4.8.0
+
+# Essentials
+numpy>=1.23.0
+pillow>=9.5.0
+psutil>=5.9.0
+
+# Optional plotting (commented out to save space)
+# matplotlib>=3.7.0
